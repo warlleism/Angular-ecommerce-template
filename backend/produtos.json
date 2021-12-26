@@ -68,6 +68,14 @@
             "desc": "Teclado Gamer Semi Mecânico Luminoso rgb com Mouse Gamer Laser 2400dpi! attencao: pressione fn + scroll lock juntos para ligar / desligar as luzes!!! O teclado é gamer perfeito para quem gosta de jogar online, é semi-mecânico.",
             "img": "/assets/img/Kit-Teclado-Gamer-Mouse-luuk-youn .jpg",
             "cor": "Preto"
+        },
+        {
+            "id": 10,
+            "nome": "Gabinete Gamer - Brazilpc - Bpc-C3147 Black - C/ Lateral De Vidro",
+            "preco": "R$ 159,920",
+            "desc": "Conheça o Gabinete que cabe no seu orçamento e que é ideal para o seu Setup com ótimo custo benefício. Especificações do Gabinete: Marca: Brazil pc Modelo: C3147 Posição da fonte de alimentação: Parte superior usb i/o: USB + audio.",
+            "img": "/assets/img/Gabinete-Gamer.jpg",
+            "cor": "Preto"
         }
     ]
 }
