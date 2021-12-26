@@ -1,0 +1,221 @@
+strong {
+  color: rgb(142, 222, 22);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 30% 30% 24%;
+  grid-template-rows: 600px;
+  justify-content: center;
+  padding: 50px;
+  background-color: rgb(216, 216, 216);
+  height: 100vh;
+}
+
+.img-container {
+  margin-left: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.img-container > img {
+  max-width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.content-container {
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.content-container h3 {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: rgb(94, 94, 94);
+}
+
+.content-container p {
+  margin-top: 50px;
+  font-size: 1.1rem;
+  color: rgb(38, 38, 38);
+}
+
+.pay-container {
+  margin-left: 30px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pay-container h3 {
+  margin-left: 30px;
+  padding: 10px 10px 0px 10px;
+  margin-top: 20px;
+}
+
+.pay-container p {
+  margin-left: 30px;
+  max-width: 80%;
+  padding: 0px 10px 30px 10px;
+  margin-top: 30px;
+  border-bottom: solid 1px rgb(138, 138, 138);
+}
+
+.pay-container .CEP {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.pay-container .CEP div {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.pay-container .CEP input {
+  padding: 8px;
+  border: solid black 1px;
+  border-radius: 5px;
+  max-width: 50%;
+}
+
+.pay-container .CEP button {
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 10px 17px 10px 17px;
+  color: white;
+  background-color: rgb(111, 181, 255);
+  margin-bottom: 50px;
+}
+
+.pay-container button {
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  max-width: 84%;
+  margin-left: 29px;
+  padding: 10px;
+}
+
+.pay-container .sell-buttom {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: white;
+  background-color: rgb(64, 205, 40);
+}
+
+.pay-container .sell-buttom-AME {
+  color: blue;
+  font-weight: 100;
+  font-size: 1.3rem;
+  background-color: white;
+  border: blue solid 3px;
+}
+
+.ame-logo {
+  max-width: 30px;
+}
+
+@media screen and (max-width: 1220px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+  }
+
+  .img-container {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    width: 100vh;
+  }
+
+  .img-container > img {
+    margin-left: 60px;
+    max-width: 70%;
+    border-radius: 0px;
+    width: 100vh;
+  }
+
+  .content-container {
+    margin: 0 auto;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100vh;
+  }
+
+  .content-container h3 {
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: rgb(94, 94, 94);
+  }
+
+  .content-container p {
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 1.4rem;
+    color: rgb(38, 38, 38);
+  }
+
+  .pay-container {
+    margin: 0 auto;
+    border-radius: 0px;
+   width: 100vh;
+  }
+
+  .pay-container h3 {
+    margin-left: 30px;
+    padding: 10px 10px 0px 10px;
+    margin-top: 20px;
+  }
+
+  .pay-container .CEP div{
+    font-size: 1.2rem;
+  }
+
+  .pay-container .CEP input {
+    padding: 8px;
+    border: solid black 1px;
+    border-radius: 5px;
+    max-width: 50%;
+  }
+
+  .pay-container .CEP button {
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 10px 17px 10px 17px;
+    color: white;
+    background-color: rgb(111, 181, 255);
+    margin-bottom: 50px;
+  }
+
+  .pay-container button {
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 84%;
+    margin-left: 29px;
+    padding: 10px;
+  }
+
+  .pay-container .sell-buttom {
+    font-weight: 900;
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgb(64, 205, 40);
+  }
+
+  .pay-container .sell-buttom-AME {
+    color: blue;
+    font-weight: 100;
+    font-size: 1.3rem;
+    background-color: white;
+    border: blue solid 3px;
+  }
+}

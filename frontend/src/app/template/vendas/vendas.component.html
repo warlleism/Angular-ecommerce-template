@@ -1,0 +1,27 @@
+<div class="content">
+
+  <div class="img-container">
+    <img src="{{produtos?.img}}" alt="">
+  </div>
+
+  <div class="content-container">
+    <h3 name="nome">{{ produtos?.nome}} </h3>
+    <p name="preco">{{ produtos?.desc}}</p>
+    <p name="cor" *ngIf="produtos?.cor">Cor: {{produtos?.cor}}</p>
+  </div>
+
+  <div class="pay-container">
+    <h3 name="nome">R$ {{ produtos?.preco}} </h3>
+    <p> <img class="ame-logo" src="\assets\img\logo-ame-coracao-256.png" alt=""> em 1x no cartão de crédito com Ame e receba <strong>R$ 1,24 de volta</strong></p>
+
+    <div class="CEP">
+      <div>Calcular frete e prazo</div>
+      <input type="text" placeholder="digite o CEP">
+      <button>OK</button>
+    </div>
+
+    <button class="sell-buttom">Comprar</button>
+    <button class="sell-buttom-AME"> <img class="ame-logo" src="\assets\img\logo-ame-coracao-256.png" alt=""> Comprar com AME</button>
+
+  </div>
+</div>

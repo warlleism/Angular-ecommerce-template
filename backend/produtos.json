@@ -1,0 +1,73 @@
+{
+    "produtos": 
+    [
+        {
+            "id": 1,
+            "nome": "Mouse Gamer Redragon Chroma Cobra M711 Rgb 10000dpi",
+            "preco": "117,53",
+            "desc": "Mouse Gamer Red Dragon Cobra rgb, 7 Botões, 10000DPI, M711, Preto Sensor pixart PMW3325 para Alta Performance (10000 DPI/20G/100ips) - Iluminação rgb Ajustável: Sistema de Iluminação Chroma rgb! (7 Diferentes Modos de Iluminação)",
+            "img" : "/assets/img/RedragonCobra-M711.jpg",
+            "cor": "Preto"
+        },
+        {
+            "id": 2,
+            "nome": "Teclado Gamer Semi-Mecânico Vinik Vx Hydra Com Led Preto 1,8m De Cabo",
+            "preco": "70,47",
+            "desc": "Teclado Gamer Semi-Mecânico Vinik vx Hydra - com 3 opções de iluminação led Teclado gamer da linha vx gaming é o primeiro passo de um gamer! Possui diversas funções e características que todo gamer utiliza. - Teclado com backlight",
+            "img" : "/assets/img/Teclado-Semi-Mecânico-Gamer-Vinik.jpg",
+            "cor": "Preto"
+        },
+        {
+            "id": 3,
+            "nome": "Controle Sem Fio Dualsense Midnight Black Playstation5 - Ps5",
+            "preco": "368,91",
+            "desc": "Leve mais emoção às suas noites de gameplay no PS5™ com o controle sem fio DualSense™ Midnight Black. Parte de uma nova linha de cores com o tema galáxia, este elegante design foi inspirado em como vemos as maravilhas do espaço.",
+            "img": "/assets/img/ControleSemFioDualsense-PS5.jpg",
+            "cor": "Preto"
+        },
+        {
+            "id": 4,
+            "nome": "Processador Amd Ryzen 5 5600g, 6-Core, 12-Threads, 3.9ghz (4.4ghz Turbo), Cache 19mb, Am4",
+            "preco": "1.734,90",
+            "desc": "Processador amd Ryzen 5 5600G, 3.9GHz (4.4GHz Max Turbo), AM4, Vídeo Integrado, 6 Núcleos - 100-100000252BOX Esteja você jogando os jogos mais recentes, projetando o próximo arranha-céu ou analisando dados científicos, a velocidade.",
+            "img": "/assets/img/Processador-AMD-Ryzen-55600G-3.9GHz.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "Placa De Vídeo Zotac Gaming Geforce Rtx 3060 Twin Edge Oc, 15 Gbps, 12gb, Gddr6, Ray Tracing",
+            "preco": "4.399,90",
+            "desc": "Núcleos de rastreamento de raio de 2ª geração- Núcleos de tensor de 3ª geração - Resfriamento avançado IceStorm 2.0- Controle de ventilador ativo com parada de ventilador freeze- Placa traseira de metal- vr Ready Geral.",
+            "img" : "/assets/img/ZOTAC-GAMING-GeForce-RTX-3060-Twin-Edge.jpg"
+        },
+        {
+            "id": 6,
+            "nome": "Placa De Vídeo Asus Nvidia Geforce Rtx 2060 - 6gb Gddr6 192 Bits Dual",
+            "preco": "3.499,90",
+            "desc": "A GeForce RTX 2060 conta com a tecnologia da arquitetura Turingda NVIDIA, trazendo desempenhoincrível e o poder do Ray Tracing em tempo real e da AI para os games mais atuais e para todos os gamers.",
+            "img": "/assets/img/Placa-Vídeo-Asus-Nvidia-Geforce-Rtx-2060.jpg"
+        },
+        {
+            "id": 7,
+            "nome": "Placa de Vídeo VGA Asus NVIDIA GeForce GTX 1050 Ti 4GB GDDR5",
+            "preco": "1.799,90",
+            "desc": "PA placa gráfica ASUS Cerberus GeForce GTX 1050 Ti; foi projetada com uma placa traseira de metal forte para proteger os componentes sensíveis na parte traseira da placa e fornecer reforço para a placa do circuito.",
+            "img": "/assets/img/Placa-Vídeo-VGA-Asus-NVIDIA-GeForce-GTX-1050-Ti-4GB-GDDR5.jpg"
+        },
+        {
+            "id": 8,
+            "nome": "Xbox Series S - 512gb Ssd",
+            "preco": "2.799,90",
+            "desc": "Para quem é fã de games e tecnologia precisa ter agora mesmo o Console Xbox Series s. O design super moderno, diferenciado e mais elegante de todos os tempos conta com taxas de quadros mais altas, carregamento ainda mais rápido.",
+            "img": "/assets/img/Xbox-Series-S-512gb-Ssd.jpg",
+            "cor": "Branco"
+        },
+        {
+            "id": 9,
+            "nome": "Kit Teclado Gamer Mouse Abnt2 Semi Mecânico Luminoso Led Rgb 2400dpi Laser Usb Óptico Pc Tv Ps4 M800 (Preto) Luuk Young",
+            "preco": "114,00",
+            "desc": "Teclado Gamer Semi Mecânico Luminoso rgb com Mouse Gamer Laser 2400dpi! attencao: pressione fn + scroll lock juntos para ligar / desligar as luzes!!! O teclado é gamer perfeito para quem gosta de jogar online, é semi-mecânico.",
+            "img": "/assets/img/Kit-Teclado-Gamer-Mouse-luuk-youn .jpg",
+            "cor": "Preto"
+        }
+    ]
+}

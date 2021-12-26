@@ -1,0 +1,9 @@
+html{
+  background-color: rgb(227, 227, 227);
+}
+
+@media screen and (max-width: 1220px) {
+  html{
+    background-color: rgb(255, 255, 255);
+  }
+}
