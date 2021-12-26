@@ -1,138 +1,16 @@
 <section class="content">
 
-  <div class="card1">
-    <a routerLink="/vendas/{{1}}">
+  <div class="card1" *ngFor="let item of produtos" >
+    <a routerLink="/vendas/{{item.id}}">
       <div class="card" style="width: 18rem;">
-        <img src="\assets\img\RedragonCobra-M711.jpg" class="card-img-top" alt="...">
+        <img src="{{item.img}}" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Mouse Gamer Redragon Chroma Cobra M711 Rgb 10000dpi</h5>
-          <h4>R$ 117,53</h4>
+          <h5 class="card-title">{{item.nome}}</h5>
+          <h4>{{item.preco}}</h4>
         </div>
       </div>
     </a>
-    <a routerLink="/vendas/{{1}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{2}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\Teclado-Semi-Mecânico-Gamer-Vinik.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Teclado Gamer Semi-Mecânico Vinik Vx Hydra Com Led Preto 1,8m De Cabo</h5>
-          <h4>R$ 70,47</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{2}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{3}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\ControleSemFioDualsense-PS5.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Controle Sem Fio Dualsense Midnight Black Playstation5 - Ps5</h5>
-          <h4>R$ 368,91</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{3}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{4}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\Processador-AMD-Ryzen-55600G-3.9GHz.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Processador Amd Ryzen 5 5600g, 6-Core, 12-Threads, 3.9ghz (4.4ghz Turbo), Cache 19mb,
-            Am4</h5>
-          <h4>R$ 1.734,90</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{4}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{5}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\ZOTAC-GAMING-GeForce-RTX-3060-Twin-Edge.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Placa De Vídeo Zotac Gaming Geforce Rtx 3060 Twin Edge Oc, 15 Gbps, 12gb, Gddr6, Ray
-            Tracing</h5>
-          <h4>R$ 4.399,90</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{5}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{6}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\Placa-Vídeo-Asus-Nvidia-Geforce-Rtx-2060.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Placa De Vídeo Asus Nvidia Geforce Rtx 2060 - 6gb Gddr6 192 Bits Dual</h5>
-          <h4>R$ 3.499,90</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{6}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{7}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\Placa-Vídeo-VGA-Asus-NVIDIA-GeForce-GTX-1050-Ti-4GB-GDDR5.jpg" class="card-img-top"
-          alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Placa de Vídeo VGA Asus NVIDIA GeForce GTX 1050 Ti 4GB GDDR5</h5>
-          <h4>R$ 1.799,90</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{7}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{8}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\Xbox-Series-S-512gb-Ssd.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Xbox Series S - 512gb Ssd</h5>
-          <h4>R$ 2.799,90</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{8}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{9}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\Kit-Teclado-Gamer-Mouse-luuk-youn .jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Kit Teclado Gamer Mouse Abnt2 Semi Mecânico Luminoso Led Rgb 2400dpi Laser Usb Óptico
-            Pc Tv Ps4 M800 (Preto) Luuk Young</h5>
-          <h4>R$ 114,00</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{9}}" class="btn btn-primary">Comprar</a>
-  </div>
-
-  <div class="card1">
-    <a routerLink="/vendas/{{9}}">
-      <div class="card" style="width: 18rem;">
-        <img src="\assets\img\Kit-Teclado-Gamer-Mouse-luuk-youn .jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Kit Teclado Gamer Mouse Abnt2 Semi Mecânico Luminoso Led Rgb 2400dpi Laser Usb Óptico
-            Pc Tv Ps4 M800 (Preto) Luuk Young</h5>
-          <h4>R$ 114,00</h4>
-        </div>
-      </div>
-    </a>
-    <a routerLink="/vendas/{{9}}" class="btn btn-primary">Comprar</a>
+    <a routerLink="/vendas/{{item.id}}" class="btn btn-primary">Comprar</a>
   </div>
 
 </section>
