@@ -2,6 +2,12 @@ strong {
   color: rgb(142, 222, 22);
 }
 
+.img-container .retorno {
+  max-width: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 .content {
   display: grid;
   grid-template-columns: 30% 30% 24%;
@@ -13,7 +19,6 @@ strong {
 }
 
 .img-container {
-  margin-left: 50px;
   background-color: rgb(255, 255, 255);
 }
 
@@ -119,6 +124,12 @@ strong {
 }
 
 @media screen and (max-width: 1220px) {
+  .img-container .retorno {
+    max-width: 60px;
+    margin-left: 20px;
+    margin-bottom: 500px;
+  }
+
   .content {
     display: flex;
     flex-direction: column;
@@ -135,7 +146,7 @@ strong {
   }
 
   .img-container > img {
-    margin-left: 60px;
+    margin-left: 50px;
     max-width: 70%;
     border-radius: 0px;
     width: 100vh;
@@ -151,30 +162,36 @@ strong {
   .content-container h3 {
     padding: 20px;
     margin-top: 30px;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     color: rgb(94, 94, 94);
   }
 
   .content-container p {
     padding: 20px;
     margin-top: 50px;
-    font-size: 1.4rem;
-    color: rgb(38, 38, 38);
+    font-size: 1.7rem;
   }
 
   .pay-container {
     margin: 0 auto;
     border-radius: 0px;
-   width: 100vh;
+    width: 100vh;
   }
 
   .pay-container h3 {
+    font-size: 3rem;
     margin-left: 30px;
     padding: 10px 10px 0px 10px;
     margin-top: 20px;
   }
 
-  .pay-container .CEP div{
+  .pay-container p {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .pay-container .CEP div {
     font-size: 1.2rem;
   }
 
@@ -205,17 +222,10 @@ strong {
   }
 
   .pay-container .sell-buttom {
-    font-weight: 900;
-    font-size: 1.3rem;
-    color: white;
-    background-color: rgb(64, 205, 40);
+    padding: 20px;
   }
 
   .pay-container .sell-buttom-AME {
-    color: blue;
-    font-weight: 100;
-    font-size: 1.3rem;
-    background-color: white;
-    border: blue solid 3px;
+    padding: 20px;
   }
 }

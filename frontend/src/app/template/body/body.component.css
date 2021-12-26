@@ -14,8 +14,13 @@ input {
   padding: 20px;
 }
 
+.card{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
 a {
-  border-radius: 0px;
+  border-radius: 0;
   display: flex;
   justify-content: center;
   text-decoration: none;
@@ -24,29 +29,9 @@ a {
 h5 {
   color: rgb(65, 65, 65);
   height: 100px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 h4 {
   color: rgb(48, 48, 48);
 }
-/*
-p{
-  color: rgb(125, 125, 125);
-  height: 140px;
-  overflow-y: scroll;
-} */
-
-/* p::-webkit-scrollbar {
-  width: 10px;
-}
-
-p::-webkit-scrollbar-track {
-  background: rgb(255, 255, 255);
-}
-
-p::-webkit-scrollbar-thumb {
-  background-color: rgb(54, 54, 62);
-  border-radius: 20px;
-  border: 3px solid rgb(255, 253, 253);
-} */
