@@ -8,7 +8,7 @@ strong {
   margin-left: 20px;
 }
 
-.content {
+.content-vendas {
   display: grid;
   grid-template-columns: 30% 30% 24%;
   grid-template-rows: 600px;
@@ -28,19 +28,19 @@ strong {
   border-bottom-left-radius: 5px;
 }
 
-.content-container {
+.content-container-info {
   background-color: white;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.content-container h3 {
+.content-container-info h3 {
   margin-top: 30px;
   font-size: 1.4rem;
   color: rgb(94, 94, 94);
 }
 
-.content-container p {
+.content-container-info p {
   margin-top: 50px;
   font-size: 1.1rem;
   color: rgb(38, 38, 38);
@@ -130,7 +130,7 @@ strong {
     margin-bottom: 500px;
   }
 
-  .content {
+  .content-vendas {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,21 +152,21 @@ strong {
     width: 100vh;
   }
 
-  .content-container {
+  .content-container-info {
     margin: 0 auto;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     width: 100vh;
   }
 
-  .content-container h3 {
+  .content-container-info h3 {
     padding: 20px;
     margin-top: 30px;
     font-size: 1.9rem;
     color: rgb(94, 94, 94);
   }
 
-  .content-container p {
+  .content-container-info p {
     padding: 20px;
     margin-top: 50px;
     font-size: 1.7rem;

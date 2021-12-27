@@ -1,4 +1,4 @@
-.content {
+.content-main-page {
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -10,7 +10,7 @@ input {
   padding: 10px;
 }
 
-.card1 {
+.card-content{
   padding: 20px;
 }
 

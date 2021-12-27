@@ -1,14 +1,14 @@
 
 
 
-<div class="content">
+<div class="content-vendas">
 
   <div class="img-container">
    <a routerLink="/"><img class="retorno" src="\assets\img\left-return-arrow.png" alt=""></a>
     <img src="{{produtos?.img}}" alt="">
   </div>
 
-  <div class="content-container">
+  <div class="content-container-info">
     <h3 name="nome">{{ produtos?.nome}} </h3>
     <p name="preco">{{ produtos?.desc}}</p>
     <p name="cor" *ngIf="produtos?.cor">Cor: {{produtos?.cor}}</p>
