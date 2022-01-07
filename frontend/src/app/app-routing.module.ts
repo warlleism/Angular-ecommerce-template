@@ -5,8 +5,13 @@ import { VendasComponent } from './template/vendas/vendas.component';
 
 const routes: Routes =
 [
+
   {
-    path: '',
+    path: '', pathMatch:'full', redirectTo: 'body'
+  },
+
+  {
+    path: 'body',
     component: BodyComponent
   }
   ,

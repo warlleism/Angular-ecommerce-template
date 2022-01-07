@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RequestsService } from './services/requests.service';
 import { BodyComponent } from './template/body/body.component';
-import { HeaderComponent } from './template/header/header.component';
 import { VendasComponent } from './template/vendas/vendas.component';
 
 
@@ -14,7 +13,6 @@ import { VendasComponent } from './template/vendas/vendas.component';
   declarations: [
     AppComponent,
     BodyComponent,
-    HeaderComponent,
     VendasComponent
   ],
   imports: [
