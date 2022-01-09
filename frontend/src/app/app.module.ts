@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { RequestsService } from './services/requests.service';
 import { BodyComponent } from './template/body/body.component';
 import { VendasComponent } from './template/vendas/vendas.component';
+import { HeaderComponent } from './template/header/header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     BodyComponent,
-    VendasComponent
+    VendasComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
